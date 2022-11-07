@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="en" >
+<html lang="ja" >
     <head>
 
         {%- include head.html -%}
-
+        
+        <!-- 削除
         {% if page.previous %}
             <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
         {% else %}
@@ -13,6 +14,7 @@
         {% if page.next %}
             <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
         {% endif %}
+        -->
     </head>
     <body>
         <div class="book">
@@ -21,7 +23,7 @@
 
             <div class="book-body">
                 <div class="book-header" role="navigation">
-                    <!-- Title -->
+                    <!-- Title 
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         {% if page.title %}
@@ -29,7 +31,7 @@
                         {% else %}
                             <a href="." >{{ site.title | escape }}</a>
                         {% endif %}
-                    </h1>
+                    </h1>　-->
                 </div>
 
                 <div class="body-inner">

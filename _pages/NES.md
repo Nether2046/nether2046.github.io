@@ -8,5 +8,4 @@ permalink: /NES
 cover: /images/NES.png
 ---
 
-
-# サーバー概要
+Nether Economic Serverは、Nether Server Networkのメインサーバーです。

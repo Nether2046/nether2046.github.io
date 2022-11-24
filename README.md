@@ -2,7 +2,7 @@
 layout: home
 title: 
 permalink: /
-cover: /images/NES.png
+cover: /images/NES.jpg
 ---
 
 > ##### お知らせ
